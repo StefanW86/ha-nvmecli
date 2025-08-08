@@ -1,6 +1,6 @@
 name: "HA NVME-CLI"
 description: "Home Assistant nvme-cli monitoring"
-version: "1.0.7"
+version: "1.0.8"
 slug: "ha-nvmecli"
 init: false
 arch:
@@ -19,3 +19,5 @@ privileged:
   - SYS_ADMIN
   - SYS_RAWIO
   - DAC_READ_SEARCH
+  - SYS_RESOURCE
+  - SYS_MODULE
