@@ -1,6 +1,6 @@
 name: "HA NVME-CLI"
 description: "Home Assistant nvme-cli monitoring"
-version: "1.0.4"
+version: "1.0.5"
 slug: "ha-nvmecli"
 init: false
 arch:
@@ -14,3 +14,7 @@ devices:
   - /dev/nvme1n1
   - /dev/sda
   - /dev/sdb
+privileged:
+  - SYS_ADMIN
+  - SYS_RAWIO
+  - DAC_READ_SEARCH
