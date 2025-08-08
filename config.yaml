@@ -1,0 +1,11 @@
+name: "HA NVME-CLI"
+description: "Home Assistant nvme-cli monitoring"
+version: "1.0.0"
+slug: "NVME-CLI"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
