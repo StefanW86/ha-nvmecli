@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bashio
 
 nvme list
-echo "Hello world!"
+smartctl --all /dev/sda
